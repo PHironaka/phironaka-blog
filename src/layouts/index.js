@@ -33,7 +33,7 @@ export default ({ children, data }) =>
               <g.P>
               {data.site.siteMetadata.description}
               </g.P>
-              
+
     {children()}
   </g.Div>
 

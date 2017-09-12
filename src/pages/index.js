@@ -1,9 +1,9 @@
 import React from "react"
 import g from "glamorous"
 import Link from "gatsby-link"
+import Meta from '../components/meta';
 
 import { rhythm } from "../utils/typography"
-
 export default ({ data }) => {
   console.log(data)
   return (
