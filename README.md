@@ -1,2 +1,2 @@
-# gatsby-starter-hello-world
-Starter with the bare essentials needed for a Gatsby site
+# personal blog
+Source code of Peter Hironaka's blog. 
