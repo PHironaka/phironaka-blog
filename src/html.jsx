@@ -6,6 +6,7 @@ import { rhythm } from "./utils/typography";
 import Helmet from 'react-helmet';
 import { siteMetadata as config } from '../gatsby-config';
 const isProduction = process.env.NODE_ENV === 'production';
+const openGraphUrl = isProduction ? `${config.url}/share.png` : '/space-pic.jpg';
 
 
 
@@ -27,10 +28,13 @@ const Html = ({ body, headComponents, postBodyComponents }) => {
         {helmet.meta.toComponent()}
         <meta property="og:site_name" content={config.title} />
         <meta property="og:type" content="website" />
+        <meta property="og:image" content={openGraphUrl} />
         <meta name="twitter:site" content="@peterhironaka" />
         <meta name="twitter:creator" content="@peterhironaka" />
+        <meta property="twitter:image" content={openGraphUrl} />
 
         {/* Favicon */}
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png" />
 
         <meta name="theme-color" content="#000000" />
 
