@@ -6,7 +6,7 @@ import { rhythm } from "./utils/typography";
 import Helmet from 'react-helmet';
 import { siteMetadata as config } from '../gatsby-config';
 const isProduction = process.env.NODE_ENV === 'production';
-const openGraphUrl = isProduction ? `${config.url}/share.png` : '/space-pic.jpg';
+const openGraphUrl = isProduction ? `${config.url}/space-pic.jpg` : '/space-pic.jpg';
 
 
 
