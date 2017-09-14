@@ -1,0 +1,2 @@
+webpackJsonp([0x36dfee11ec260a00],{"./node_modules/json-loader/index.js!./.cache/json/layout-index.json":function(e,a){e.exports={data:{site:{siteMetadata:{title:"Peter Hironaka",description:"Hello, my name is Peter Hironaka. I’m a Freelance Web Developer based in sunny Venice, California. "}}},layoutContext:{}}}});
+//# sourceMappingURL=path----eae4d4ce6830c97800ba.js.map

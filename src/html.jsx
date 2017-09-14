@@ -23,7 +23,7 @@ const Html = ({ body, headComponents, postBodyComponents }) => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
         {/* Meta */}
-        <title data-react-helmet="true">{config.title} - Blog - Freelance Web Developer</title>        
+        <title data-react-helmet="true">{config.title} - Blog - Freelance Web Developer</title>
         {helmet.meta.toComponent()}
         <meta property="og:site_name" content={config.title} />
         <meta property="og:type" content="website" />
@@ -31,7 +31,7 @@ const Html = ({ body, headComponents, postBodyComponents }) => {
         <meta name="twitter:creator" content="@peterhironaka" />
 
         {/* Favicon */}
-       
+
         <meta name="theme-color" content="#000000" />
 
         {/* Styles */}
@@ -46,4 +46,3 @@ const Html = ({ body, headComponents, postBodyComponents }) => {
 
 
 export default Html;
-

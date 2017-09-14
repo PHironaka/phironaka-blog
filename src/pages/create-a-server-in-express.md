@@ -1,8 +1,6 @@
 ---
 title: Create a server in Express
-date: 2017-04-13 17:50:00 Z
-tags:
-- shopify
+date: "2017-04-13"
 ---
 
 This is my first blog post I've ever written in my life. Ok, that's a lie. I've made prior attempts at maintaining one, but all have been abandoned after a few short posts. This time is different, as my sole motive is to improve as a developer.

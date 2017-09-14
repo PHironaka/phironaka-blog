@@ -1,6 +1,6 @@
 ---
 title: Adding SSL for...Free.
-date: 2017-09-02 17:50:00 Z
+date: "2017-09-02"
 ---
 
 It's 2017, and if you're serving your website over HTTP, well then I don't know what to tell you. Seriously though, it's time to upgrade.

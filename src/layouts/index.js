@@ -10,7 +10,7 @@ const linkStyle = css({ float: `right` })
 export default ({ children, data }) =>
   <g.Div
     margin={`0 auto`}
-    maxWidth={700}
+    maxWidth={1024}
     padding={rhythm(2)}
     paddingTop={rhythm(1.5)}
   >
@@ -26,8 +26,8 @@ export default ({ children, data }) =>
 
     </Link>
 
-    <Link className={linkStyle} to={`/about/`}>
-      About
+    <Link className={linkStyle} to={`https://peterhironaka.com`}>
+      Back to site  ↳
     </Link>
 
               <g.P>

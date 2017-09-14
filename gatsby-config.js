@@ -1,9 +1,17 @@
 module.exports = {
   siteMetadata: {
    title: `Peter Hironaka`,
-   description: `Hello, my name is Peter Hironaka. I’m a Front-End Developer based in sunny Venice, California. `
+   description: `Hello, my name is Peter Hironaka. I’m a Freelance Web Developer based in sunny Venice, California. This is my blog where I pontificate about whatever I feel like. Mostly coing web stuff. As you were. `
  },
   plugins: [
+
+    {
+      resolve: `gatsby-plugin-sass`,
+      options: {
+        precision: 8,
+      }
+    },
+
     {
       resolve: `gatsby-source-filesystem`,
       options: {

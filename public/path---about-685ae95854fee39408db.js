@@ -1,0 +1,2 @@
+webpackJsonp([0xf927f89000063000],{"./node_modules/json-loader/index.js!./.cache/json/about.json":function(e,t){e.exports={data:{site:{siteMetadata:{title:"Peter Hironaka"}}},pathContext:{}}}});
+//# sourceMappingURL=path---about-685ae95854fee39408db.js.map

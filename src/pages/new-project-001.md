@@ -1,11 +1,6 @@
 ---
 title: "New project alert! \U0001F6A8\U0001F6A8\U0001F6A8"
-date: 2017-07-19 20:01:00 Z
-tags:
-- rails
-- portfolio
-- javascript
-- api
+date: "2017-08-21"
 ---
 
 For the past few weeks, I've been working on finishing the MVP of my first Rails app. It's called Scoutmaster, and I built it for Producers specifically during the location scouting process.

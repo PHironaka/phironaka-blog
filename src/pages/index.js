@@ -1,16 +1,14 @@
-import React from "react";
-import g from "glamorous";
-import Link from "gatsby-link";
-import Meta from '../components/meta';
+import React from "react"
+import g from "glamorous"
+import Link from "gatsby-link"
+import Meta from '../components/meta'
 
 import { rhythm } from "../utils/typography"
 export default ({ data }) => {
   console.log(data)
   return (
     <div>
-      <g.H1 display={"inline-block"} borderBottom={"1px solid"}>
-        Amazing Pandas Eating Things
-      </g.H1>
+ 
       <h4>
         {data.allMarkdownRemark.totalCount} Posts
       </h4>
