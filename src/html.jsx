@@ -7,6 +7,7 @@ import Helmet from 'react-helmet';
 import { siteMetadata as config } from '../gatsby-config';
 const isProduction = process.env.NODE_ENV === 'production';
 const openGraphUrl = isProduction ? `https://blog.peterhironaka.com/space-pic.jpg` : '/space-pic.jpg';
+const styles = isProduction ? require('!raw-loader!../public/styles.css') : null;
 
 
 
@@ -39,7 +40,9 @@ const Html = ({ body, headComponents, postBodyComponents }) => {
         <meta name="theme-color" content="#000000" />
 
         {/* Styles */}
-        {css}      </head>
+        {styles && <style id="gatsby-inlined-css" dangerouslySetInnerHTML={{ __html: styles }} />}
+
+        </head>
       <body>
         <div id="___gatsby" dangerouslySetInnerHTML={{ __html: body }} />
         {postBodyComponents}

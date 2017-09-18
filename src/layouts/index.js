@@ -2,10 +2,13 @@ import React from "react"
 import g from "glamorous"
 import { css } from "glamor"
 import Link from "gatsby-link"
-
+import '../css/typography.css';
 import { rhythm } from "../utils/typography"
+import ExternalLink from '../components/external-link'
 
-const linkStyle = css({ float: `right` })
+const linkStyle = css({ float: `right` });
+
+
 
 export default ({ children, data }) =>
   <g.Div
@@ -26,10 +29,12 @@ export default ({ children, data }) =>
 
     </Link>
 
-    <Link className={linkStyle} to={`https://peterhironaka.com`}>
-      Back to site  ↳
-    </Link>
 
+
+    <ExternalLink className={linkStyle} to="https://peterhironaka.com">
+
+      Back to site  ↳
+    </ExternalLink>
               <g.P>
               {data.site.siteMetadata.description}
               </g.P>
