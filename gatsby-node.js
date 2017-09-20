@@ -43,26 +43,3 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
     })
   })
 }
-
-
-
-/**
- * Create pages for tags
- */
-function createTagPages (createPage, edges) {
-  const tagTemplate = path.resolve(`src/templates/tags.js`)
-  const posts = {}
-
-  edges
-    .forEach(({ node }) => {
-      if (node.frontmatter.tags) {
-        node.frontmatter.tags.split(', ')
-          .forEach(tag => {
-            if (!posts[tag]) {
-              posts[tag] = []
-            }
-            posts[tag].push(node)
-          })
-      }
-    })
-}

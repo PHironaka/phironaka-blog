@@ -17,4 +17,5 @@ Lucky for us, it's pretty straight forward. I have gone ahead and listed out all
 4. Navigate to the tab labeled 'Crypto' on the top of the page, make sure your SSL is set to Flexible. At this point, you should receive a confirmation email from Cloudflare notifying you your SSL has been created!
 ![Crypto](../crypto.jpg)
 5. Then click on the 'Page Rules' tab. Select the 'Create Page Rules' button, and make sure to Always Use HTTPS.
+
 And that's it. Just follow those five steps and you should be golden.

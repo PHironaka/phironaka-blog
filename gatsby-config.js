@@ -5,12 +5,6 @@ module.exports = {
  },
   plugins: [
 
-    {
-      resolve: `gatsby-plugin-sass`,
-      options: {
-        precision: 8,
-      }
-    },
 
     {
       resolve: `gatsby-source-filesystem`,
