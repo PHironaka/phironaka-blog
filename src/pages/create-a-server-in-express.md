@@ -3,11 +3,10 @@ title: Create a server in Express
 date: "2017-04-13"
 ---
 
-This is my first blog post I've ever written in my life. Ok, that's a lie. I've made prior attempts at maintaining one, but all have been abandoned after a few short posts. This time is different, as my sole motive is to improve as a developer.
+This is my first blog post I've ever written in my life. Ok, that's a lie. Anyway, here is a quick step by step guide to create a server in Express! 
 
-![Chinese Salty Egg](https://camo.githubusercontent.com/fc61dcbdb7a6e49d3adecc12194b24ab20dfa25b/68747470733a2f2f692e636c6f756475702e636f6d2f7a6659366c4c376546612d3330303078333030302e706e67)
+![Expressjs](https://camo.githubusercontent.com/fc61dcbdb7a6e49d3adecc12194b24ab20dfa25b/68747470733a2f2f692e636c6f756475702e636f6d2f7a6659366c4c376546612d3330303078333030302e706e67)
 
-I'm currently in my 7th week at General Assembly's Web Developer Immersive course. So far as a class, we've completed two projects: an interactive Javascript Game as well as a Ruby on Rails app. This will be the first and last time that I mention GA, as I'd prefer to direct the focus of my writing on my personal development. For this triumphant first post, I've decided to detail the steps required to create a server in Express (we just did this 30mins ago in class).
 
 
 ### Step 1:

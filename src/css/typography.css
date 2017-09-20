@@ -18,6 +18,9 @@ h3 span {
   font-family: 'Quattrocento Sans',serif;
 }
 
+img {
+  max-width: 100%;
+}
 
 .pic {
   border-radius: 100%;

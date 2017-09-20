@@ -1,5 +1,5 @@
 ---
-title: "New project alert! \U0001F6A8\U0001F6A8\U0001F6A8"
+title: "New product alert! \U0001F6A8\U0001F6A8\U0001F6A8"
 date: "2017-08-21"
 ---
 
