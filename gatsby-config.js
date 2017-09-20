@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
    title: `Peter Hironaka`,
-   description: `Hello, my name is Peter Hironaka. I’m a Freelance Web Developer based in sunny Venice, California. This is my blog where I pontificate about whatever I feel like. Mostly coing web stuff. As you were. `
+   description: `Hello, my name is Peter Hironaka. I’m a Freelance Web Developer based in sunny Venice, California. This is my blog where I pontificate about whatever I feel like. Mostly web stuff. `
  },
   plugins: [
 

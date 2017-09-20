@@ -26,7 +26,7 @@ const Html = ({ body, headComponents, postBodyComponents }) => {
 
         {/* Meta */}
         <title data-react-helmet="true">{config.title} - Blog - Freelance Web Developer</title>
-        {helmet.meta.toComponent()}
+
         <meta property="og:site_name" content={config.title} />
         <meta property="og:type" content="website" />
         <meta property="og:image" content={openGraphUrl} />

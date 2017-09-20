@@ -5,6 +5,8 @@ import Link from "gatsby-link"
 import '../css/typography.css';
 import { rhythm } from "../utils/typography"
 import ExternalLink from '../components/external-link'
+import Footer from '../components/Footer'
+
 const profilePic = require("../images/space-pic.jpg")
 
 const linkStyle = css({ float: `right` });
@@ -14,11 +16,15 @@ const linkStyle = css({ float: `right` });
 export default ({ children, data }) =>
   <g.Div
     margin={`0 auto`}
-    maxWidth={1024}
+    maxWidth={800}
     padding={rhythm(2)}
     paddingTop={rhythm(1.5)}
   >
     <Link to={`/`}>
+    <img        className="pic"
+                src={profilePic}
+
+              />
       <g.H3
         marginBottom={rhythm(2)}
         display={`inline-block`}
@@ -30,28 +36,21 @@ export default ({ children, data }) =>
 
     </Link>
 
+
     <ExternalLink className={linkStyle} to="https://peterhironaka.com">
 
-      Back to site  ↳
+      Back to main site ↳
     </ExternalLink>
-    <img
-                src={profilePic}
-                style={{
-                  borderRadius: `100%`,
-                  float: "left",
-                  marginRight: rhythm(1 / 4),
-                  marginBottom: 0,
-                  width: rhythm(2),
-                  height: rhythm(2),
-                }}
-              />
+
 
               <g.P>
               {data.site.siteMetadata.description}
               </g.P>
 
     {children()}
-  </g.Div>
+    <Footer />
+
+</g.Div>
 
   export const query = graphql`
   query LayoutQuery {

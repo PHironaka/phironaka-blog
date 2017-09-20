@@ -9,10 +9,41 @@ h1 {
 h3 {
   font-size: 1.1em;
   font-weight: normal;
-
+  background-image: none;
 }
 
 h3 span {
   font-weight: normal;
-  font-size: .9em;
+  font-size: .8em;
+  font-family: 'Quattrocento Sans',serif;
+}
+
+
+.pic {
+  border-radius: 100%;
+float: left;
+margin-right: 0.3625rem;
+margin-bottom: 0px;
+margin-top: 25px;
+width: 2.9rem;
+height: 2.9rem;
+}
+
+a {
+
+  text-shadow:none;
+background-image: none;
+}
+
+footer {
+  margin-top: 4em;
+}
+
+footer p {
+  font-size: .8em;
+  text-align: center;
+}
+
+.css-glamorous-p-1s51cdr {
+  float: left;
 }
